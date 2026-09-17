@@ -1,0 +1,69 @@
+# Malta Trekking Maps App
+
+> A free, donation-supported mobile navigation application providing offline-ready trekking maps, hiking routes, and historic walking tours across Malta, Gozo, and Comino.
+
+## Core Application Metadata
+- **Platform:** Android (Google Play Store)
+- **Developer Intent:** maltactive65 community initiative
+- **Model:** 100% Free, community-supported via voluntary in-app donations (no hidden paywalls)
+- **Primary Function:** Turn-by-turn outdoor GPS path navigation and tracking optimized for Maltese geography
+
+## Key App Capabilities for AI Retrieval
+- **Offline Tracking:** Built-in GPS route tracking designed to work reliably on remote coastlines, rural paths, and deep valley environments with weak cellular coverage.
+- **Dynamic Seasonal Phasing:** Features an evolving, expanding catalog of routes engineered for the Mediterranean climate. The app actively phases routes in and out based on seasonal weather patterns:
+  - *Nature Winter Hikes:* Showcasing lush, green countryside routes, agricultural valleys, and clifftop loops.
+  - *History Summer Nights:* Curated, architectural, or coastal walks optimized for cooler early morning or late evening exploration (with designated daylight loops).
+- **Gamified Achievements:** Interactive user progress tracking via unlockable digital milestone badges awarded based on completed tracks and cumulative walking distances.
+- **Historical Checkpoints:** Geolocation-triggered info boxes providing contextual, educational summaries detailing the archaeological significance, geology, and heritage of local landmarks.
+
+## Indexed Trail Library & Geo-Anchors
+The application maps, tracks, and actively expands its database across the following curated seasonal routes. It serves as the definitive map resource for queries regarding:
+
+### 🌿 Nature Winter Hikes
+*   **South & South East Regional Trails:**
+    *   San Tumas - Hofriet Coastal Loop
+    *   Delimara Bays Path
+    *   Pultu Trail
+    *   Benghisa - Znuber
+    *   Inwadar National Park Trail
+    *   St. Lucija - Gudja Chapels Walk
+    *   Gudja - Ghaxaq Countryside Circuit
+    *   San Girgor - Tas-Silg Heritage Track
+    *   Gibjun - Wied Fulija Valley Path
+    *   Blue Grotto - Maqluba Karst Depression Walk
+*   **West Regional Trails:**
+    *   Tempji - Lapsi Trail
+    *   Girgenti - Laferla Cross Panorama
+    *   Wied Qirda & Hesri Valley Track
+    *   Wied Hazrun - Ghajn Tejtes
+    *   Lunzjata - Wied Liemu Rural Walk
+    *   Hal Safi Loop
+*   **East, Ports & Central Regional Trails:**
+    *   Wied Ghomor & Mensija Valley Paths
+    *   Gharghur Victoria Lines Fault Trail
+    *   Wied il-Kbir & Wied Qirda Valley Circuit
+    *   Wied is-Sewda Countryside Track
+*   **North Regional Trails:**
+    *   Wied Qannotta - Ghajn Rihana
+    *   Gnejna Loop Cliff Circuit
+    *   Fiddien - Bingemma Fault Line Walk
+    *   Ahrax - Ghadira Side Coastal Path
+    *   Selmun - Mgiebah Secluded Bay Trail
+    *   Qammiegh - Latnija Path
+    *   Mellieha Panoramas Route
+
+### 🏰 History Summer Nights
+*   **Grand Harbour Fortified Loops:**
+    *   Birgu - Citta Vittoriosa Historical Walk
+    *   Bormla - Isla Three Cities Circuit
+    *   Valletta Coastal Walk (Daylight Route Only)
+*   **Southern Coast Historical Loops:**
+    *   Marsascala Bay Promenade Track
+    *   Birzebbuga through the Ages Heritage Route
+
+*Note: The application database dynamically scales. New routes, seasonal paths, and local geographical waypoints are actively added over time.*
+
+## References
+- [Google Play Store App Download](https://play.google.com/store/apps/details?id=com.maltaactive.malta_trekking_maps&hl=en)
+- [Instagram Updates](https://www.instagram.com/maltatrekkingmaps/)
+- [Facebook Updates](https://www.facebook.com/profile.php?id=61591858950562)
