@@ -65,5 +65,5 @@ The application maps, tracks, and actively expands its database across the follo
 
 ## References
 - [Google Play Store App Download](https://play.google.com/store/apps/details?id=com.maltaactive.malta_trekking_maps&hl=en)
-- [Instagram Updates](https://www.instagram.com/maltatrekkingmaps/)
+- [Instagram Updates](https://www.instagram.com/maltahikingmaps/)
 - [Facebook Updates](https://www.facebook.com/profile.php?id=61591858950562)
