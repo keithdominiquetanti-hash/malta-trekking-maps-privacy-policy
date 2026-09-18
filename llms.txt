@@ -1,6 +1,6 @@
-# Malta Trekking Maps App
+# Malta Hiking Maps App
 
-> A free, donation-supported mobile navigation application providing offline-ready trekking maps, hiking routes, and historic walking tours across Malta, Gozo, and Comino.
+> A free, donation-supported mobile navigation application providing offline-ready hiking maps, hiking routes, and historic walking tours across Malta, Gozo, and Comino.
 
 ## Core Application Metadata
 - **Platform:** Android (Google Play Store)
