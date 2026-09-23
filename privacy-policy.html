@@ -1,261 +1,498 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Malta Hiking Maps</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy — Malta Hiking Maps</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.7;
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 0 20px;
-            color: #222;
-            background: #fff;
-        }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont,
+                   'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background: #f1f1ed;
+      color: #1a1a1a;
+      line-height: 1.7;
+      padding: 0 0 60px;
+    }
 
-        h1 {
-            color: #1b5e20;
-            margin-bottom: 0.2em;
-        }
+    header {
+      background: #720303;
+      color: #f1f1ed;
+      padding: 32px 24px 28px;
+    }
 
-        h2 {
-            margin-top: 2.2em;
-            color: #2e7d32;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 6px;
-        }
+    header h1 {
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: 0.3px;
+      margin-bottom: 4px;
+    }
 
-        h3 {
-            margin-top: 1.6em;
-            color: #333;
-        }
+    header p {
+      font-size: 13px;
+      opacity: 0.75;
+    }
 
-        p {
-            margin: 0.8em 0;
-        }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 24px 0;
+    }
 
-        ul {
-            margin-left: 24px;
-        }
+    .last-updated {
+      display: inline-block;
+      background: white;
+      border: 1px solid rgba(114,3,3,0.2);
+      color: #720303;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 5px 12px;
+      border-radius: 20px;
+      margin-bottom: 28px;
+    }
 
-        li {
-            margin-bottom: 10px;
-        }
+    h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #720303;
+      margin: 32px 0 10px;
+      padding-left: 12px;
+      border-left: 4px solid #720303;
+    }
 
-        a {
-            color: #1565c0;
-            text-decoration: none;
-        }
+    h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin: 18px 0 6px;
+    }
 
-        a:hover {
-            text-decoration: underline;
-        }
+    p {
+      font-size: 14px;
+      color: rgba(0,0,0,0.7);
+      margin-bottom: 12px;
+    }
 
-        .updated {
-            color: #666;
-            margin-bottom: 30px;
-        }
-    </style>
+    ul {
+      margin: 8px 0 14px 20px;
+    }
+
+    ul li {
+      font-size: 14px;
+      color: rgba(0,0,0,0.7);
+      margin-bottom: 6px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 14px;
+      padding: 18px 20px;
+      margin: 12px 0 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+
+    .card p:last-child,
+    .card ul:last-child {
+      margin-bottom: 0;
+    }
+
+    .third-party-item {
+      border-left: 3px solid rgba(114,3,3,0.2);
+      padding-left: 14px;
+      margin-bottom: 16px;
+    }
+
+    .third-party-item strong {
+      display: block;
+      font-size: 14px;
+      color: #1a1a1a;
+      margin-bottom: 2px;
+    }
+
+    .third-party-item a {
+      color: #720303;
+      font-size: 12px;
+    }
+
+    .highlight-box {
+      background: rgba(114,3,3,0.05);
+      border: 1px solid rgba(114,3,3,0.15);
+      border-radius: 10px;
+      padding: 14px 16px;
+      margin: 10px 0 16px;
+    }
+
+    .highlight-box p {
+      margin: 0;
+      font-size: 13px;
+      color: rgba(0,0,0,0.65);
+    }
+
+    .permission-row {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      margin-bottom: 12px;
+    }
+
+    .permission-label {
+      background: rgba(114,3,3,0.08);
+      color: #720303;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 6px;
+      white-space: nowrap;
+      margin-top: 2px;
+    }
+
+    .permission-text {
+      font-size: 13px;
+      color: rgba(0,0,0,0.65);
+      margin: 0;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px 24px;
+      text-align: center;
+      font-size: 12px;
+      color: rgba(0,0,0,0.35);
+      border-top: 1px solid rgba(0,0,0,0.08);
+    }
+  </style>
 </head>
 <body>
 
-<h1>Privacy Policy for Malta Hiking Maps</h1>
+  <header>
+    <h1>Malta Hiking Maps</h1>
+    <p>Privacy Policy</p>
+  </header>
 
-<p class="updated"><strong>Last updated:</strong> July 28, 2026</p>
+  <div class="container">
 
-<p>
-This Privacy Policy describes how Malta Hiking Maps ("the App")
-collects, uses, and stores information when you use the application.
-</p>
+    <div class="last-updated">Last updated: July 2026</div>
 
-<h2>1. Information We Collect</h2>
+    <p>
+      This Privacy Policy describes how Malta Hiking Maps
+      ("the App") collects, uses, and stores information when
+      you use the application. The App is operated by Keith
+      Tanti in a personal capacity.
+    </p>
 
-<h3>1.1 Location Data</h3>
+    <!-- ── 1. Information We Collect ── -->
+    <h2>1. Information We Collect</h2>
 
-<p>
-The App requests access to your device's precise GPS location while
-you are actively using a hike route. Location data is used solely to
-display your position on the map, detect proximity to hike checkpoints,
-and auto-centre the map view. Location data is processed on-device only
-and is never transmitted to any server or third party.
-</p>
+    <div class="card">
 
-<h3>1.2 Data You Provide</h3>
+      <h3>1.1 Location Data</h3>
+      <p>
+        The App requests access to your device's precise GPS
+        location while you are actively using a hiking route.
+        Location data is used solely to display your position
+        on the map, detect proximity to route checkpoints, and
+        auto-centre the map view. Location data is processed
+        on-device only and is never transmitted to any server
+        or third party.
+      </p>
+      <div class="highlight-box">
+        <p>
+          The App uses foreground location access only. It does
+          not request or use background location permission.
+          Checkpoint detection is active only while the App is
+          open and in the foreground.
+        </p>
+      </div>
 
-<p>
-The App stores the following information locally on your device using
-Android SharedPreferences:
-</p>
+      <h3>1.2 Data You Provide</h3>
+      <p>
+        The App stores the following information locally on
+        your device using Android SharedPreferences:
+      </p>
+      <ul>
+        <li>Hiking progress (completed hikes, unlocked routes,
+            completed checkpoints)</li>
+        <li>Earned badges (checkpoint badges, route badges,
+            fan explorer badges)</li>
+        <li>Hiking star ratings you submit after completing
+            a route</li>
+        <li>Pledge balance amounts you choose to record
+            voluntarily</li>
+        <li>App preferences and settings</li>
+      </ul>
+      <p>
+        None of this data is transmitted off your device or
+        shared with any third party.
+      </p>
 
-<ul>
-<li>Hike progress (completed hikes, unlocked hikes, completed checkpoints)</li>
-<li>Earned badges</li>
-<li>Hike star ratings you submit after completing a route</li>
-<li>Pledge balance amounts you choose to record voluntarily</li>
-<li>App preferences and settings</li>
-</ul>
+      <h3>1.3 Photos</h3>
+      <p>
+        If you choose to add personal photos when sharing
+        your hiking achievements via the social sharing
+        feature, those photos are accessed temporarily to
+        generate a shareable image. The App does not store,
+        upload, or retain your photos beyond the immediate
+        sharing action. Photos are shared directly via your
+        device's native share sheet to an app of your choice.
+      </p>
 
-<p>
-None of this data is transmitted off your device or shared with any
-third party.
-</p>
+      <h3>1.4 Contact Form Messages</h3>
+      <p>
+        If you submit a message via the in-app Contact screen,
+        your name, email address, and message content are
+        transmitted to the app developer via EmailJS, a
+        third-party email delivery service, solely for the
+        purpose of responding to your enquiry. This data is
+        not used for marketing or shared with any other party.
+      </p>
 
-<h3>1.3 Photos</h3>
+      <h3>1.5 Hiking Route Data</h3>
+      <p>
+        The App fetches hiking route data (maps, GPX files,
+        checkpoint information, badge images) from a remote
+        server operated by the app developer (hosted on
+        Cloudflare). This data is cached locally on your
+        device for offline use. No personal information is
+        included in these requests.
+      </p>
 
-<p>
-If you choose to add personal photos when sharing your hike achievements
-via the social sharing feature, those photos are accessed temporarily to
-generate a shareable image. The App does not store, upload, or retain
-your photos beyond the immediate sharing action. Photos are shared
-directly via your device's native share sheet to an app of your choice.
-</p>
+      <h3>1.6 Lifestyle Partners Promotions</h3>
+      <p>
+        The App displays promotional content from partner
+        businesses and services ("Lifestyle Partners") on the
+        home screen, as pre-hike informational popups, and as
+        map markers on certain routes. This promotional content
+        is fetched from the same Cloudflare-hosted server as
+        route data.
+      </p>
+      <p>
+        When you tap a partner link or the "Visit" button,
+        you are directed to the partner's external website,
+        which opens in an in-app browser. The App does not
+        share any personal data with Lifestyle Partners. Any
+        data collected on the partner's website is subject to
+        that partner's own privacy policy. The App developer
+        is not responsible for the privacy practices of
+        third-party partner websites.
+      </p>
 
-<h3>1.4 Contact Form Messages</h3>
+    </div>
 
-<p>
-If you submit a message via the in-app Contact screen, your name,
-email address, and message content are transmitted to the app developer
-via EmailJS, a third-party email delivery service, solely for the
-purpose of responding to your enquiry. This data is not used for
-marketing or shared with any other party. Please refer to the EmailJS
-Privacy Policy at
-<a href="https://www.emailjs.com/legal/privacy-policy/" target="_blank" rel="noopener">
-https://www.emailjs.com/legal/privacy-policy/
-</a>
-for further information on how they handle data in transit.
-</p>
+    <!-- ── 2. Data Storage and Security ── -->
+    <h2>2. Data Storage and Security</h2>
 
-<h3>1.5 Hiking Route Data</h3>
+    <div class="card">
+      <p>
+        All personal progress data (completed routes, badges,
+        ratings, pledge amounts) is stored exclusively on your
+        device using Android's built-in SharedPreferences
+        storage. This data does not leave your device and is
+        not accessible to the app developer or any third party.
+      </p>
+      <p>
+        Cached route and promotion content (maps, images, GPX
+        files) is stored on your device using standard Android
+        cache storage and may be cleared by the operating
+        system or manually by you at any time.
+      </p>
+    </div>
 
-<p>
-The App fetches hiking route data (maps, GPX files, checkpoint
-information, badge images) from a remote server operated by the app
-developer (hosted on Cloudflare). This data is cached locally on your
-device for offline use. No personal information is included in these
-requests.
-</p>
+    <!-- ── 3. Voluntary Contributions ── -->
+    <h2>3. Voluntary Contributions</h2>
 
-<h2>2. Data Storage and Security</h2>
+    <div class="card">
+      <p>
+        The App includes an optional feature that allows you
+        to voluntarily pledge and transfer a personal
+        contribution to support the app's development. Any
+        such transfer is made directly from your own banking
+        or payment application to the developer's personal
+        bank account or Revolut account using the details
+        displayed in the app.
+      </p>
+      <p>
+        The App itself does not process, handle, or store any
+        payment card details or banking credentials. The
+        pledge balance figure you choose to record is stored
+        locally on your device only. Voluntary contributions
+        are personal gifts and are not in exchange for any
+        in-app product, benefit, or service.
+      </p>
+    </div>
 
-<p>
-All personal progress data (completed routes, badges, ratings, pledge
-amounts) is stored exclusively on your device using Android's built-in
-SharedPreferences storage. This data does not leave your device and
-is not accessible to the app developer or any third party.
-</p>
+    <!-- ── 4. Third-Party Services ── -->
+    <h2>4. Third-Party Services</h2>
 
-<p>
-Cached route content (maps, images, GPX files) is stored on your device
-using standard Android cache storage and may be cleared by the operating
-system or manually by you at any time.
-</p>
+    <div class="card">
 
-<h2>3. Voluntary Contributions</h2>
+      <div class="third-party-item">
+        <strong>OpenStreetMap</strong>
+        <p>
+          Provides map tile imagery displayed during hikes.
+          Map tiles are fetched from public tile servers.
+          No personal data is included in tile requests
+          beyond your device's IP address, which is standard
+          for any internet request.
+        </p>
+        <a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy"
+           target="_blank">
+          osmfoundation.org — Privacy Policy
+        </a>
+      </div>
 
-<p>
-The App includes an optional feature that allows you to voluntarily
-pledge and transfer a personal contribution to support the app's
-development. Any such transfer is made directly from your own banking
-or payment application to the developer's personal bank account or
-Revolut account using the details displayed in the app. The App itself
-does not process, handle, or store any payment card details or banking
-credentials. The pledge balance figure you choose to record is stored
-locally on your device only.
-</p>
+      <div class="third-party-item">
+        <strong>EmailJS</strong>
+        <p>
+          Used to deliver contact form submissions to the
+          developer by email. Only the content you enter in
+          the contact form is shared.
+        </p>
+        <a href="https://www.emailjs.com/legal/privacy-policy/"
+           target="_blank">
+          emailjs.com — Privacy Policy
+        </a>
+      </div>
 
-<h2>4. Third-Party Services</h2>
+      <div class="third-party-item">
+        <strong>Cloudflare</strong>
+        <p>
+          Hosts the hiking route data, badge images, GPX
+          files, and Lifestyle Partners promotion content
+          fetched by the App. Standard request logs
+          (including IP address) may be retained by
+          Cloudflare per their policies.
+        </p>
+        <a href="https://www.cloudflare.com/privacypolicy/"
+           target="_blank">
+          cloudflare.com — Privacy Policy
+        </a>
+      </div>
 
-<p>The App uses the following third-party services:</p>
+      <div class="third-party-item">
+        <strong>Lifestyle Partner Websites</strong>
+        <p>
+          When you tap a partner link within the App, you
+          are directed to an external website operated by
+          that partner. The App does not share your personal
+          data with partners and has no control over data
+          collected on their websites. Please review each
+          partner's privacy policy before submitting any
+          personal information on their site.
+        </p>
+      </div>
 
-<ul>
-<li>
-<strong>OpenStreetMap</strong> — provides map tile imagery displayed during hikes.
-OpenStreetMap data is fetched from public tile servers. No personal
-data is included in tile requests beyond your device's IP address,
-which is standard for any internet request.<br>
-Privacy policy:
-<a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy" target="_blank" rel="noopener">
-https://wiki.osmfoundation.org/wiki/Privacy_Policy
-</a>
-</li>
+      <div class="highlight-box">
+        <p>
+          The App does not use advertising networks, analytics
+          platforms, or tracking services of any kind.
+        </p>
+      </div>
 
-<li>
-<strong>EmailJS</strong> — used to deliver contact form submissions to the developer
-by email. Only the content you enter in the contact form is shared.<br>
-Privacy policy:
-<a href="https://www.emailjs.com/legal/privacy-policy/" target="_blank" rel="noopener">
-https://www.emailjs.com/legal/privacy-policy/
-</a>
-</li>
+    </div>
 
-<li>
-<strong>Cloudflare</strong> — hosts the hiking route data and media files fetched
-by the App. Standard request logs (including IP address) may be
-retained by Cloudflare per their policies.<br>
-Privacy policy:
-<a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">
-https://www.cloudflare.com/privacypolicy/
-</a>
-</li>
-</ul>
+    <!-- ── 5. Permissions ── -->
+    <h2>5. Permissions</h2>
 
-<p>
-The App does not use advertising networks, analytics platforms, or
-tracking services of any kind.
-</p>
+    <div class="card">
 
-<h2>5. Permissions</h2>
+      <div class="permission-row">
+        <span class="permission-label">LOCATION</span>
+        <p class="permission-text">
+          ACCESS_FINE_LOCATION and ACCESS_COARSE_LOCATION —
+          required to show your position on the hiking map
+          and detect checkpoint proximity. Used only while
+          the App is open and in the foreground. Background
+          location is not requested or used.
+        </p>
+      </div>
 
-<p>The App requests the following Android permissions:</p>
+      <div class="permission-row">
+        <span class="permission-label">INTERNET</span>
+        <p class="permission-text">
+          Required to fetch route data, map tiles, badge
+          images, and Lifestyle Partners promotion content.
+        </p>
+      </div>
 
-<ul>
-<li><strong>ACCESS_FINE_LOCATION</strong> and <strong>ACCESS_COARSE_LOCATION</strong> — required to show your position on the hike map and detect checkpoint proximity. Used only while the App is in use.</li>
+      <div class="permission-row">
+        <span class="permission-label">STORAGE</span>
+        <p class="permission-text">
+          READ_MEDIA_IMAGES — required only if you choose to
+          add personal photos to the social sharing feature.
+          The App does not access your photo library without
+          an explicit action from you.
+        </p>
+      </div>
 
-<li><strong>INTERNET</strong> — required to fetch route data, map tiles, and badge images.</li>
+    </div>
 
-<li><strong>READ_EXTERNAL_STORAGE / READ_MEDIA_IMAGES</strong> — required only if you choose to add personal photos to the social sharing feature.</li>
-</ul>
+    <!-- ── 6. Children's Privacy ── -->
+    <h2>6. Children's Privacy</h2>
 
-<h2>6. Children's Privacy</h2>
+    <div class="card">
+      <p>
+        The App is not directed at children under the age of
+        13. The App does not knowingly collect personal
+        information from children.
+      </p>
+    </div>
 
-<p>
-The App is not directed at children under the age of 13. The App does
-not knowingly collect personal information from children.
-</p>
+    <!-- ── 7. Your Rights ── -->
+    <h2>7. Your Rights</h2>
 
-<h2>7. Your Rights</h2>
+    <div class="card">
+      <p>
+        Since all personal data generated by your use of the
+        App is stored locally on your device, you have full
+        control over it at all times. You may delete the App
+        at any time to remove all locally stored data. You
+        may also clear the App's data via your device's
+        Settings at any time.
+      </p>
+      <p>
+        If you submitted a contact form message and wish to
+        request deletion of that correspondence, please
+        contact the developer using the contact details
+        below.
+      </p>
+    </div>
 
-<p>
-Since all personal data generated by your use of the App is stored
-locally on your device, you have full control over it at all times.
-You may delete the App at any time to remove all locally stored data.
-You may also clear the App's data via your device's Settings at any time.
-</p>
+    <!-- ── 8. Changes to This Policy ── -->
+    <h2>8. Changes to This Policy</h2>
 
-<p>
-If you submitted a contact form message and wish to request deletion
-of that correspondence, please contact the developer at the email
-address provided in the App.
-</p>
+    <div class="card">
+      <p>
+        This Privacy Policy may be updated from time to time.
+        Any changes will be reflected on this page with an
+        updated "Last updated" date. Continued use of the App
+        after changes constitutes acceptance of the updated
+        policy.
+      </p>
+    </div>
 
-<h2>8. Changes to This Policy</h2>
+    <!-- ── 9. Contact ── -->
+    <h2>9. Contact</h2>
 
-<p>
-This Privacy Policy may be updated from time to time. Any changes will
-be reflected on this page with an updated "Last updated" date.
-Continued use of the App after changes constitutes acceptance of the
-updated policy.
-</p>
+    <div class="card">
+      <p>
+        For any questions about this Privacy Policy or your
+        data, please use the Contact screen within the App,
+        or write to:
+      </p>
+      <p>
+        <strong>Keith Tanti</strong><br/>
+        Malta<br/>
+        <em>Contact via the in-app Contact screen</em>
+      </p>
+    </div>
 
-<h2>9. Contact</h2>
+  </div>
 
-<p>
-For any questions about this Privacy Policy or your data, please use
-the Contact screen within the App or write to keith.tanti.11@gmail.com.
-</p>
+  <footer>
+    Malta Hiking Maps &nbsp;·&nbsp; Privacy Policy
+    &nbsp;·&nbsp; Last updated July 2026
+  </footer>
 
 </body>
 </html>
