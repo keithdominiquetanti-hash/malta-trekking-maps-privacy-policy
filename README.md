@@ -1,2 +1,2 @@
-# malta-trekking-maps-privacy-policy
-Malta Trekking Maps Privacy Policy
+# malta-hiking-maps-privacy-policy
+Malta Hiking Maps Privacy Policy
